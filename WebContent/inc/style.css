@@ -1,0 +1,86 @@
+/* Général ------------------------------------------------------------------------------------- */
+
+body, p, legend, label, input {
+    font: normal 8pt verdana, helvetica, sans-serif;
+}
+
+    #moncadre {
+    width:800px;
+    padding:10px;
+    background:orange;
+    border:1px solid #DDD;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    }
+
+/* Forms --------------------------------------------------------------------------------------- */
+fieldset {
+    padding: 10px;
+    border: 1px #0568CD solid;
+    margin: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #0568CD;
+}
+
+form label {
+    float: left;
+    width: 200px;
+    margin: 3px 0px 0px 0px;
+}
+
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px #999 solid;
+}
+
+form input.sansLabel {
+    margin-left: 200px;
+}
+
+/* Styles et couleurs -------------------------------------------------------------------------- */
+.requis {
+    color: #c00;
+}
+
+.erreur {
+    color: #900;
+}
+
+.succes {
+    color: #090;
+}
+
+.info {
+    font-style: italic;
+    color: #E8A22B;
+    
+
+}
+
+/* Styles tables ----------------------------------------------------------------------------------- */
+
+.cel {
+    width: 133px;
+    background-color: gray;
+}
+
+.cel_th {
+    background-color: green;
+}
+
+.cel_td {
+    background-color: #FCFAE1;
+}
+
+.cel_td {
+    background-color: #FFFFFF;
+}
+
+.action {
+    text-align: center;
+}
+

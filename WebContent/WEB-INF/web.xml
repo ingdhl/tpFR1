@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>CreationClient</servlet-name>
+		<servlet-class>com.sdzee.tp.servlets.CreationClient</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreationClient</servlet-name>
+		<url-pattern>/creationClient</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>CreationCommande</servlet-name>
+		<servlet-class>com.sdzee.tp.servlets.CreationCommande</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreationCommande</servlet-name>
+		<url-pattern>/creationCommande</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListeClients</servlet-name>
+		<servlet-class>com.sdzee.tp.servlets.CreationListeClients</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListeClients</servlet-name>
+		<url-pattern>/listeClients</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>
+		<servlet-name>ListeCommandes</servlet-name>
+		<servlet-class>com.sdzee.tp.servlets.CreationListeCommandes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListeCommandes</servlet-name>
+		<url-pattern>/listeCommandes</url-pattern>
+	</servlet-mapping>		
+	
+	<jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <include-prelude>/WEB-INF/taglibs.jsp</include-prelude>
+        </jsp-property-group>
+    </jsp-config>	
+</web-app>
